@@ -11,6 +11,7 @@
 		EC03FBA31F73139D001FE716 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03FBA21F73139D001FE716 /* Event.swift */; };
 		EC03FBA51F7313BD001FE716 /* EventHandlerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03FBA41F7313BD001FE716 /* EventHandlerWrapper.swift */; };
 		EC03FBA71F731412001FE716 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC03FBA61F731412001FE716 /* Observable.swift */; };
+		EC2776F01F756D9A00CEE43C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2776EF1F756D9A00CEE43C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EC03FBA21F73139D001FE716 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		EC03FBA41F7313BD001FE716 /* EventHandlerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandlerWrapper.swift; sourceTree = "<group>"; };
 		EC03FBA61F731412001FE716 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		EC2776EF1F756D9A00CEE43C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2776F01F756D9A00CEE43C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			children = (
 				EC03FB991F730F4F001FE716 /* PatKit */,
 				EC03FB981F730F4F001FE716 /* Products */,
+				EC2776EE1F756D9A00CEE43C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +63,14 @@
 				EC03FBA61F731412001FE716 /* Observable.swift */,
 			);
 			path = PatKit;
+			sourceTree = "<group>";
+		};
+		EC2776EE1F756D9A00CEE43C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2776EF1F756D9A00CEE43C /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
